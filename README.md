@@ -19,7 +19,16 @@ By defining custom error messages and handling, we can show our users a specific
 
 We'll learn more about these common use cases for handing errors in web applications later on in this course. In this reading and the following lab, we'll practice building simple custom errors. 
 
-**This is a code along.** There are not tests to pass, but you must fork and clone this repo in order to code along!
+**This is a code along.** There are no tests to pass, but you must fork and clone this repo in order to code along!
+
+## Before We Begin, a Note on Inheritance
+
+We'll learn a lot more about the concept of inheritance in an upcoming unit. For now, just understand the following. If one class inherits from another, that means it takes on all of the methods and behaviors of the class from which it inherits. In the below example, the `Child` class inherits from the `Parent` class. Consequently, all instance of `Child` have, not only the behaviors and methods that you might define in the `Child` class itself, but all of the methods and behaviors defined in the `Parent` class. 
+
+```ruby
+class Child < Parent
+end
+```
 
 ## Building a Custom Error
 
