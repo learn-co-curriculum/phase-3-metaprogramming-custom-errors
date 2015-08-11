@@ -19,6 +19,7 @@ By defining custom error messages and handling, we can show our users a specific
 
 We'll learn more about these common use cases for handing errors in web applications later on in this course. In this reading and the following lab, we'll practice building simple custom errors. 
 
+**This is a code along.** There are not tests to pass, but you must fork and clone this repo in order to code along!
 
 ## Building a Custom Error
 
