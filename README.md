@@ -7,11 +7,11 @@
 
 ## Introduction
 
-We already know that Ruby has a hierarchy of error, or Exception, classes, all of which inherit from the Exception class. We've become familiar with these error types: 
+We already know that Ruby has a hierarchy of error, or `Exception`, classes, all of which inherit from the Exception class. We've become familiar with these error types: 
 
-* NoMethodError
-* ArgumentError
-* SyntaxError
+* `NoMethodError`
+* `ArgumentError`
+* `SyntaxError`
 
 And these are just a few! Let's say, however, that we are working on a web application in which users can sign in and post pictures to Instagram. But wait! Instagram has been hacked and their entire site is currently down! Since our app relies on sending data to and getting a response from the Instagram site, our app will break and our users won't know why. They'll only know that our app is broken and they may even stop using it entirely. Not good. Lucky for us, we can use custom error messages and custom error handling to save the day! 
 
