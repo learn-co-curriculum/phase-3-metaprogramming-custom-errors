@@ -23,7 +23,7 @@ We'll learn more about these common use cases for handing errors in web applicat
 
 ## Before We Begin, a Note on Inheritance
 
-We'll learn a lot more about the concept of inheritance in an upcoming unit. For now, just understand the following. If one class inherits from another, that means it takes on all of the methods and behaviors of the class from which it inherits. In the below example, the `Child` class inherits from the `Parent` class. Consequently, all instance of `Child` have, not only the behaviors and methods that you might define in the `Child` class itself, but all of the methods and behaviors defined in the `Parent` class. 
+We'll learn a lot more about the concept of inheritance in an upcoming unit. For now, just understand the following. If one class inherits from another, that means it takes on all of the methods and behaviors of the class from which it inherits. In the below example, the `Child` class inherits from the `Parent` class. Consequently, all instances of `Child` have, not only the behaviors and methods that you might define in the `Child` class itself, but all of the methods and behaviors defined in the `Parent` class. 
 
 ```ruby
 class Child < Parent
