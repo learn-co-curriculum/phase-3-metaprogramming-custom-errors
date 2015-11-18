@@ -87,7 +87,7 @@ end
 ``` 
 As it currently stands, we would receive a NoMethodError if we try to pass get_married an argument of anything that *is not* an instance of the Person class. 
 
-For example, at the bottom of our `custom_errors.rb` file, we trying to tell Beyonce to `get_married` to `"Jay-Z"`. The problem is that `"Jay-Z"` is a string, *not* an instance of the Person class. 
+For example, at the bottom of our `custom_errors.rb` file, we're trying to tell Beyonce to `get_married` to `"Jay-Z"`. The problem is that `"Jay-Z"` is a string, *not* an instance of the Person class. 
 
 Run the code in the `custom_errors.rb` file with the `ruby custom_errors.rb` command. You should see the following output: 
 
