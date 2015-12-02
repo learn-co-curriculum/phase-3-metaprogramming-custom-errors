@@ -252,3 +252,5 @@ Now, run the file one more time and you'll see that not only is our custom error
 you must give the get_married method an argument of an instance of the person class!
 Beyonce
 ```
+
+<a href='https://learn.co/lessons/oo-custom-errors' data-visibility='hidden'>View this lesson on Learn.co</a>
