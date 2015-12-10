@@ -67,7 +67,7 @@ Exception
 
 ### Defining our Error Class
 
-Let's revisit the example of our Person class and it's `get_married` method. In `custom_errors.rb`, we have the following code:
+Let's revisit the example of our Person class and its `get_married` method. In `custom_errors.rb`, we have the following code:
 
 ```ruby
 class Person
