@@ -2,8 +2,7 @@
 
 ## Objectives
 
-1. Learn how to create and raise custom error messages in Ruby. 
-2. Practice creating and raising custom error messages in Ruby. 
+1. Create and raise custom error messages in Ruby. 
 
 ## Introduction
 
@@ -17,13 +16,13 @@ And these are just a few! Let's say, however, that we are working on a web appli
 
 By defining custom error messages and handling, we can show our users a specific error message in the event of a disaster like the one above. By handling these custom errors in a particular way, we can sooth our users by redirecting them somewhere useful, showing them some kind of clear and apologetic notice, or showing them a fun, relaxing, picture of a cat. 
 
-We'll learn more about these common use cases for handing errors in web applications later on in this course. In this reading and the following lab, we'll practice building simple custom errors. 
+We'll learn more about these common use cases for handling errors in web applications later on in this course. In this reading and the following lab, we'll practice building simple custom errors. 
 
 **This is a code along.** There are no tests to pass, but you must fork and clone this repo in order to code along!
 
 ## Before We Begin, a Note on Inheritance
 
-We'll learn a lot more about the concept of inheritance in an upcoming unit. For now, just understand the following. If one class inherits from another, that means it takes on all of the methods and behaviors of the class from which it inherits. In the below example, the `Child` class inherits from the `Parent` class. Consequently, all instances of `Child` have, not only the behaviors and methods that you might define in the `Child` class itself, but all of the methods and behaviors defined in the `Parent` class. 
+If one class inherits from another, that means it takes on all of the methods and behaviors of the class from which it inherits. In the below example, the `Child` class inherits from the `Parent` class. Consequently, all instances of `Child` have, not only the behaviors and methods that you might define in the `Child` class itself, but all of the methods and behaviors defined in the `Parent` class. 
 
 ```ruby
 class Child < Parent
@@ -67,7 +66,7 @@ Exception
 
 ### Defining our Error Class
 
-Let's revisit the example of our Person class and its `get_married` method. In `custom_errors.rb`, we have the following code:
+Let's look at the example of our Person class and its `get_married` method. In `custom_errors.rb`, we have the following code:
 
 ```ruby
 class Person
