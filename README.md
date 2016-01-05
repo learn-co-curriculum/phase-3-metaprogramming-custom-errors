@@ -105,7 +105,7 @@ class PartnerError < StandardError
 end
 ```
 
-Okay, we have the code for our custom error class right here, but where does it belong in our application? We have a couple of options. We can simply place the above code *inside* of the Person class. Or, we can create a module and include that module inside the Person class. For now, we're going to include our custom error class inside of our Person class. 
+Okay, we have the code for our custom error class right here, but where does it belong in our application? We have a couple of options. We can simply place the above code *inside* of the Person class. We could define it outside of our Person class. Or, we can create a module and include that module inside the Person class. For now, we're going to include our custom error class inside of our Person class. 
 
 **Add the following to your Person class:** 
 
