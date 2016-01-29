@@ -252,4 +252,4 @@ you must give the get_married method an argument of an instance of the person cl
 Beyonce
 ```
 
-<a href='https://learn.co/lessons/oo-custom-errors' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-custom-errors' title='Code Along: Custom Error Handling'>Code Along: Custom Error Handling</a> on Learn.co and start learning to code for free.</p>
