@@ -18,7 +18,7 @@ By defining custom error messages and handling, we can show our users a specific
 
 We'll learn more about these common use cases for handling errors in web applications later on in this course. In this reading and the following lab, we'll practice building simple custom errors. 
 
-**This is a code along.** There are no tests to pass, but you must fork and clone this repo in order to code along!
+**This is a code along.** There are no tests to pass, but you must manually fork and clone [this repo](https://github.com/learn-co-students/oo-custom-errors-v-000) in order to code along!
 
 ## Before We Begin, a Note on Inheritance
 
@@ -252,4 +252,6 @@ you must give the get_married method an argument of an instance of the person cl
 Beyonce
 ```
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-custom-errors' title='Code Along: Custom Error Handling'>Code Along: Custom Error Handling</a> on Learn.co and start learning to code for free.</p>
+<a href='https://learn.co/lessons/oo-custom-errors' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-custom-errors'>Custom Errors</a> on Learn.co and start learning to code for free.</p>
