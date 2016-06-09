@@ -164,7 +164,7 @@ We did it! We raised our very own custom error. However, our program is still br
 
 ## Custom Error Handling 
 
-We can achieve the above goal via something called **rescuing**. Before we look at how to rescue the errors we raise and allow our program to continue run, let's think about the desired behavior of our rescue. 
+We can achieve the above goal via something called **rescuing**. Before we look at how to rescue the errors we raise and allow our program to continue to run, let's think about the desired behavior of our rescue. 
 
 ### Step 1: Writing a Custom Error Message
 
@@ -255,3 +255,5 @@ Beyonce
 <a href='https://learn.co/lessons/oo-custom-errors' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-custom-errors'>Custom Errors</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/oo-custom-errors'>Custom Errors</a> on Learn.co and start learning to code for free.</p>
