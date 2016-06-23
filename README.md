@@ -187,7 +187,7 @@ The basic pattern of error rescuing is as follows:
 ```ruby
 begin 
   raise YourCustomError
-rescue CustomError
+rescue YourCustomError
 end
 ```
 
