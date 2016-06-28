@@ -98,7 +98,7 @@ That's pretty informative as errors go. However, we're here to learn about raisi
 
 ### Step 1: Defining the Custom Error Class
 
-Let's define a custom error class, `PartnerError` and inherit it from StandardError:
+Let's define a custom error class, `PartnerError` that inherits from `StandardError`:
 
 ```ruby
 class PartnerError < StandardError
