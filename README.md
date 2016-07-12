@@ -14,7 +14,7 @@ We already know that Ruby has a hierarchy of error, or `Exception`, classes, all
 
 And these are just a few! Let's say, however, that we are working on a web application in which users can sign in and post pictures to Instagram. But wait! Instagram has been hacked and their entire site is currently down! Since our app relies on sending data to and getting a response from the Instagram site, our app will break and our users won't know why. They'll only know that our app is broken and they may even stop using it entirely. Not good. Lucky for us, we can use custom error messages and custom error handling to save the day! 
 
-By defining custom error messages and handling, we can show our users a specific error message in the event of a disaster like the one above. By handling these custom errors in a particular way, we can sooth our users by redirecting them somewhere useful, showing them some kind of clear and apologetic notice, or showing them a fun, relaxing, picture of a cat. 
+By defining custom error messages and handling, we can show our users a specific error message in the event of a disaster like the one above. By handling these custom errors in a particular way, we can soothe our users by redirecting them somewhere useful, showing them some kind of clear and apologetic notice, or showing them a fun, relaxing picture of a cat. 
 
 We'll learn more about these common use cases for handling errors in web applications later on in this course. In this reading and the following lab, we'll practice building simple custom errors. 
 
@@ -160,7 +160,7 @@ Now, go ahead and run the file again. This time you should see the following in 
 custom_errors.rb:11:in `get_married': Person::PartnerError (Person::PartnerError)
 ```
 
-We did it! We raised our very own custom error. However, our program is still broken. Notice that the `puts beyonce.name` line at the bottom of our file *won't run*, because it follows the `get_married` method call and we called that method in such a way as to raise an error. If only there was a way for us to *rescue* our program when such an error is raised and allow it to keep running...
+We did it! We raised our very own custom error. However, our program is still broken. Notice that the `puts beyonce.name` line at the bottom of our file *won't run* because it follows the `get_married` method call, and we called that method in such a way as to raise an error. If only there was a way for us to *rescue* our program when such an error is raised and allow it to keep running...
 
 ## Custom Error Handling 
 
@@ -178,11 +178,11 @@ class PartnerError < StandardError
 end
 ```
 
-Now we have a nice, informative, custom error message that will make it really clear to our users what went wrong, if they encounter this error. Now we're ready to implement our rescue. 
+Now we have a nice, informative, custom error message that will make it really clear to our users what went wrong if they encounter this error. Now we're ready to implement our rescue.
 
 ### Step 2: Implementing the Rescue
 
-The basic pattern of error rescuing is as follows: 
+The basic pattern of error rescuing is as follows:
 
 ```ruby
 begin 
@@ -252,8 +252,4 @@ you must give the get_married method an argument of an instance of the person cl
 Beyonce
 ```
 
-<a href='https://learn.co/lessons/oo-custom-errors' data-visibility='hidden'>View this lesson on Learn.co</a>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-custom-errors'>Custom Errors</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/oo-custom-errors'>Custom Errors</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-custom-errors' title='Custom Errors'>Custom Errors</a> on Learn.co and start learning to code for free.</p>
