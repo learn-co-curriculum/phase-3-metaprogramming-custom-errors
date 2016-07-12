@@ -14,7 +14,7 @@ We already know that Ruby has a hierarchy of error, or `Exception`, classes, all
 
 And these are just a few! Let's say, however, that we are working on a web application in which users can sign in and post pictures to Instagram. But wait! Instagram has been hacked and their entire site is currently down! Since our app relies on sending data to and getting a response from the Instagram site, our app will break and our users won't know why. They'll only know that our app is broken and they may even stop using it entirely. Not good. Lucky for us, we can use custom error messages and custom error handling to save the day! 
 
-By defining custom error messages and handling, we can show our users a specific error message in the event of a disaster like the one above. By handling these custom errors in a particular way, we can sooth our users by redirecting them somewhere useful, showing them some kind of clear and apologetic notice, or showing them a fun, relaxing, picture of a cat. 
+By defining custom error messages and handling, we can show our users a specific error message in the event of a disaster like the one above. By handling these custom errors in a particular way, we can soothe our users by redirecting them somewhere useful, showing them some kind of clear and apologetic notice, or showing them a fun, relaxing picture of a cat. 
 
 We'll learn more about these common use cases for handling errors in web applications later on in this course. In this reading and the following lab, we'll practice building simple custom errors. 
 
