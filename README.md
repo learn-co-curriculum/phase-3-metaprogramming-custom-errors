@@ -160,7 +160,7 @@ Now, go ahead and run the file again. This time you should see the following in 
 custom_errors.rb:11:in `get_married': Person::PartnerError (Person::PartnerError)
 ```
 
-We did it! We raised our very own custom error. However, our program is still broken. Notice that the `puts beyonce.name` line at the bottom of our file *won't run*, because it follows the `get_married` method call and we called that method in such a way as to raise an error. If only there was a way for us to *rescue* our program when such an error is raised and allow it to keep running...
+We did it! We raised our very own custom error. However, our program is still broken. Notice that the `puts beyonce.name` line at the bottom of our file *won't run* because it follows the `get_married` method call, and we called that method in such a way as to raise an error. If only there was a way for us to *rescue* our program when such an error is raised and allow it to keep running...
 
 ## Custom Error Handling 
 
@@ -178,11 +178,11 @@ class PartnerError < StandardError
 end
 ```
 
-Now we have a nice, informative, custom error message that will make it really clear to our users what went wrong, if they encounter this error. Now we're ready to implement our rescue. 
+Now we have a nice, informative, custom error message that will make it really clear to our users what went wrong if they encounter this error. Now we're ready to implement our rescue.
 
 ### Step 2: Implementing the Rescue
 
-The basic pattern of error rescuing is as follows: 
+The basic pattern of error rescuing is as follows:
 
 ```ruby
 begin 
@@ -252,8 +252,4 @@ you must give the get_married method an argument of an instance of the person cl
 Beyonce
 ```
 
-<a href='https://learn.co/lessons/oo-custom-errors' data-visibility='hidden'>View this lesson on Learn.co</a>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-custom-errors'>Custom Errors</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/oo-custom-errors'>Custom Errors</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-custom-errors' title='Custom Errors'>Custom Errors</a> on Learn.co and start learning to code for free.</p>
