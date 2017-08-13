@@ -83,6 +83,10 @@ class Person
   
   
 end
+
+beyonce = Person.new("Beyonce")
+beyonce.get_married("Jay-Z")
+puts beyonce.name
 ``` 
 As it currently stands, we would receive a NoMethodError if we try to pass get_married an argument of anything that *is not* an instance of the Person class. 
 
@@ -124,6 +128,10 @@ class Person
   class PartnerError < StandardError
   end
 end
+
+beyonce = Person.new("Beyonce")
+beyonce.get_married("Jay-Z")
+puts beyonce.name
 ```
 
 Now we're ready to use our custom error inside our `get_married` method.
@@ -152,6 +160,10 @@ class Person
   class PartnerError < StandardError
   end
 end
+
+beyonce = Person.new("Beyonce")
+beyonce.get_married("Jay-Z")
+puts beyonce.name
 ```
 
 Now, go ahead and run the file again. This time you should see the following in your terminal:
