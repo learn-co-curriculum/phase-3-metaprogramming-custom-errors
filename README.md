@@ -15,7 +15,7 @@ By defining custom error messages and handling, we can show our users a specific
 
 We'll learn more about these common use cases for handling errors in web applications later on in this course. In this reading and the following lab, we'll practice building simple custom errors.
 
-**This is a code along.** There are no tests to pass, but you must [manually fork and clone the repo](help.learn.co/workflow-tips/github/how-to-manually-open-a-lab) in order to code along!
+**This is a code along.** There are no tests to pass, but you must [manually fork and clone the repo](http://help.learn.co/workflow-tips/github/how-to-manually-open-a-lab) in order to code along!
 
 ## Before we begin, a note on inheritance
 If one class inherits from another, that means it takes on all of the methods and behaviors of the class from which it inherits. In the below example, the `Child` class inherits from the `Parent` class. Consequently, all instances of `Child` have not only the behaviors and methods defined directly in the `Child` class itself but also all of the methods and behaviors defined in the `Parent` class:
