@@ -4,7 +4,7 @@
 1. Create and raise custom error messages in Ruby. 
 
 ## Introduction
-We already know that Ruby has a hierarchy of error, or `Exception`, classes, all of which inherit from the Exception class. We've become familiar with these error types:
+Ruby has a hierarchy of error, or `Exception`, classes, all of which inherit from the Exception class. You'll become familiar with these error types:
 * `NoMethodError`
 * `ArgumentError`
 * `SyntaxError`
