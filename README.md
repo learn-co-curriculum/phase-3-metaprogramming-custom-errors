@@ -1,4 +1,4 @@
-# Code Along: Custom Error Handling
+# Custom Errors
 
 ## Objectives
 
