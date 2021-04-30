@@ -1,8 +1,8 @@
 # Custom Errors
 
-## Objectives
+## Learning Goals
 
-* Create and raise custom error messages in Ruby.
+* Create and raise custom error messages in Ruby
 
 ## Introduction
 
