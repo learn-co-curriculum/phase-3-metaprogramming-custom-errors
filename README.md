@@ -122,7 +122,7 @@ For example, at the bottom of our `custom_errors.rb` file, we're trying to tell
 Beyonce to `#get_married` to `"Jay-Z"`. The problem is that `"Jay-Z"` is a
 string, *not* an instance of the `Person` class.
 
-Run the code in the `custom_errors.rb` file with the `ruby custom_errors.rb`
+Run the code in the `custom_errors.rb` file with the `ruby lib/custom_errors.rb`
 command. You should see the following output:
 
 ```bash
