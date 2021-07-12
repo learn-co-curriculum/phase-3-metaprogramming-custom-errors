@@ -25,8 +25,7 @@ specific error message in the event they use some of our code incorrectly. In
 this reading and the following lab, we'll practice building simple custom
 errors.
 
-Code along with the instructions below. There are no tests to pass, so you will
-need to submit this manually.
+Code along with the instructions below.
 
 ## A Refresher on Inheritance
 
@@ -179,8 +178,8 @@ class Person
   end
 
   def get_married(person)
-    self.partner = person
     if person.is_a?(Person)
+      self.partner = person
       person.partner = self
     else
       raise PartnerError
@@ -249,8 +248,8 @@ Let's implement this code in our `#get_married` method:
 
 ```ruby
 def get_married(person)
-  self.partner = person
   if person.is_a?(Person)
+    self.partner = person
     person.partner = self
   else
     begin
@@ -279,8 +278,8 @@ class Person
   end
 
   def get_married(person)
-    self.partner = person
     if person.is_a?(Person)
+      self.partner = person
       person.partner = self
     else
       begin
@@ -311,6 +310,8 @@ error message printed out but the program continues to run and will execute the
 you must give the get_married method an argument of an instance of the person class!
 Beyonce
 ```
+
+Run `learn test` with the code above, and the tests should all pass!
 
 ## Conclusion
 
