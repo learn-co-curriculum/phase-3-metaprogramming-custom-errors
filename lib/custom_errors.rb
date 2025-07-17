@@ -10,7 +10,11 @@ class Person
       self.partner = person
       person.partner = self
     else
-      raise PartnerError
+      begin
+        raise PartnerError
+      rescue PartnerError => error 
+        puts error.message 
+      end
     end
   end
 
